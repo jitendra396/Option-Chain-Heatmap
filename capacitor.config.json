@@ -1,0 +1,13 @@
+{
+  "appId": "com.jitendra.optionchainpro",
+  "appName": "Option Chain Pro",
+  "webDir": "www",
+  "backgroundColor": "#0a0d0f",
+  "android": {
+    "allowMixedContent": false
+  },
+  "plugins": {
+    "CapacitorHttp": { "enabled": true },
+    "CapacitorCookies": { "enabled": true }
+  }
+}

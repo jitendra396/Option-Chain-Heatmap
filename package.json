@@ -1,0 +1,19 @@
+{
+  "name": "option-chain-pro",
+  "version": "13.0.0",
+  "private": true,
+  "description": "Option Chain Pro - NSE option chain, OI charts, Live OI and Sector Heatmap (Android)",
+  "scripts": {
+    "sync": "cap sync android",
+    "apk:debug": "cap sync android && cd android && ./gradlew assembleDebug",
+    "apk:release": "cap sync android && cd android && ./gradlew assembleRelease",
+    "test": "node tests/core.test.js"
+  },
+  "dependencies": {
+    "@capacitor/android": "^8.0.0",
+    "@capacitor/core": "^8.0.0"
+  },
+  "devDependencies": {
+    "@capacitor/cli": "^8.0.0"
+  }
+}
